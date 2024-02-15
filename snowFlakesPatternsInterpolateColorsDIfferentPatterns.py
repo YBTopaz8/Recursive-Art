@@ -69,7 +69,7 @@ def main():
     pattern = choice(pattern_functions)
     
     # Call the selected pattern function
-    pattern(t, num_snowflakes, 50)  # You can adjust the size parameter as needed
+    pattern(t, num_snowflakes)  # You can adjust the size parameter as needed
 
     turtle.done()
 
